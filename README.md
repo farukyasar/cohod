@@ -41,4 +41,5 @@ Import
 <code>cohod keys add <your_validator_key_name> --recover</code>
   
   #Download the genesis file
+
   <code>curl -s https://raw.githubusercontent.com/cosmic-horizon/testnets/main/darkmatter-1/genesis.json > $HOME/.coho/config/genesis.json</code>
