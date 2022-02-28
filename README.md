@@ -20,3 +20,25 @@ EOF
 <code>source $HOME/.profile</code>
 
 <code>go version </code>
+
+#Install Starport
+<code>curl https://get.starport.network/starport | bash</code>
+<code>sudo mv starport /usr/local/bin/</code>
+
+#Install CoHo
+
+<code>git clone https://github.com/cosmic-horizon/coho.git</code>
+<code>cd ~/coho</code>
+<code>starport chain build</code>
+
+
+#Initiate CoHo Instance
+
+Create
+<code>cohod keys add <your_validator_key_name></code>
+
+Import
+<code>cohod keys add <your_validator_key_name> --recover</code>
+  
+  #Download the genesis file
+  <code>curl -s https://raw.githubusercontent.com/cosmic-horizon/testnets/main/darkmatter-1/genesis.json > $HOME/.coho/config/genesis.json</code>
