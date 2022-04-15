@@ -43,3 +43,5 @@ Import
   #Download the genesis file
 
   <code>curl -s https://raw.githubusercontent.com/cosmic-horizon/testnets/main/darkmatter-1/genesis.json > $HOME/.coho/config/genesis.json</code>
+  
+  will continue with darkenergy-1
